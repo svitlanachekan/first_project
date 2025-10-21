@@ -3,9 +3,9 @@
 # money_500 = sum // 500
 # print("How many banknots of 500 hryvna: ", money_500)
 
-sum1 = int(input(""))
-money_100 = sum - money_500
-print(money_100)
+# sum1 = int(input(""))
+# money_100 = sum - money_500
+# print(money_100)
 
 
 # money_10 = sum // 10
