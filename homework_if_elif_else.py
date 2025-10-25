@@ -28,5 +28,17 @@
 # else:
 #     print ("Unknown")
 
-
+# 4	Користувач вводить дві різних англійські літери в окремих рядках. Напишіть програму, яка виводить повідомлення про місце розташування однієї літери відносно іншої у алфавіті.
     
+# alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+# letter1 = input("Enter a letter1: ").lower()
+# letter2 = input("Enter a letter2: ").lower()
+# place1 = alphabet.index(letter1)+1
+# place2 = alphabet.index(letter2)+1
+# if place1 < place2:
+#     print("Літера", letter1, "розташована перед літерою", letter2)
+# else:
+#     print("Літера", letter2, "розташована після літери", letter1)
+
+
+
