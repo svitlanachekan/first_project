@@ -40,5 +40,38 @@
 # else:
 #     print("Літера", letter2, "розташована після літери", letter1)
 
+# 5. Напишіть програму, в якій користувач вводить значення температури, і, якщо це значення менше або дорівнює 0 градусів Цельсія, необхідно вивести повідомлення A cold, isn’t it?. Якщо ж температура становить більше 0 і менше 10 градусів Цельсія повідомлення буде Cool., у інших випадках Nice weather we’re having..
+
+# i = int(input("Enter a temperature: "))
+# if i <= 0:
+#     print("A cold, isn’t it?")
+# elif i > 0 and i < 10:
+#     print("Cool.")
+# else:
+#     # print("Nice weather we’re having..")
+
+# 6	Визначте назву геометричної фігури за введеною кількістю її сторін. Програма повинна підтримувати фігури від 3 до 6 сторін. Якщо введена кількість сторін поза межами цього діапазону, програма повинна відображати відповідне повідомлення
+
+# triangle = 3
+# square = 4
+# pentagon = 5
+# hexagon = 6
+# figs = [triangle, square, pentagon, hexagon]
+# sides = int(input('Введіть число у діапазоні від 3 до 6: '))
+# place1 = figs.index(triangle)+1 
+# place2 = figs.index(square)+1
+# place3 = figs.index(pentagon)+1
+# place4 = figs.index(hexagon)+1
+# if sides == 3:
+#     print("Перед Вами - трикутник")
+# elif sides == 4:
+#     print("Перед Вами - квадрат")
+# elif sides == 5:
+#     print("Перед Вами - п'ятикутник")
+# elif sides == 6:
+#     print("Перед Вами - шестиикутник")
+# else:
+#     print("Введено неправильне число")
+
 
 

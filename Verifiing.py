@@ -53,3 +53,10 @@
 # temperature_f = temperature_c * 9/5 + 32
 # print(f"Температура у Фаренгейтах становить {temperature_f}")
 
+# i = int(input("Enter a temperature: "))
+# if i <= 0:
+#     print("A cold, isn’t it?")
+# elif i > 0 and i < 10:
+#     print("Cool.")
+# else:
+#     print("Nice weather we’re having..")
