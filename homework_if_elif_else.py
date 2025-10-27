@@ -138,16 +138,17 @@
 # a = float(input("Enter a num1: ")) # time 2:18 Praxis-Lektion 7
 # b = float(input("Enter a num2: "))
 # c = float(input("Enter a num3: "))
-# # 8 * x ** 2 + 4 * x + 2 = 0
-# D = b ** 2 - 4 * a * c
-# if D < 0:
+# 8 * x ** 2 + 4 * x + 2 = 0
+# d = b ** 2 - 4 * a * c
+# if d < 0:
 #     print("No roots")
-# elif D > 0:
-#     x1 = (- b + D * 0.5) / 2 * a  
-#     x2 = (- b - D * 0.5) / 2 * a
-#     print(f"{x1} and {x2}")
-# else: D == 0
-# print(x)
+# elif d == 0:
+#     x = (-b) / (2 * a)
+#     print("The root is one: x=", x)
+# else:
+#     x1 = (-b - d ** 0.5) / (2 * a)
+#     x2 = (-b + d ** 0.5) / (2 * a)
+#     print(f"x1 = {x1}, x2 = {x2}")
 
 # 12. Відомі рік і номер місяця народження людини, а також рік і номер місяця сьогоднішнього дня (січень - 1 і т. д.). Визначити вік людини (число повних років). У разі збігу вказаних номерів місяців вважати, що пройшов повний рік.
 # Вхідні дані:
@@ -178,4 +179,13 @@
 # *35*
 # ***7
 # 1353
+
+# number = input("Enter num: ")
+
+# for n in number:
+#     if int(n) % 2 == 0:
+#         print("*", end="")
+#     else:
+#         print(n, end="")
+
 
