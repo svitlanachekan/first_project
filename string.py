@@ -56,7 +56,7 @@ ex = input("Enter ex:\n") # 5-3+1
 # new_list = list(map(int, my_list))
 # print(new_list)
 
-ex = ex.replace("-", "+-")
-parts = ex.split("+")
-sum_ex = sum(map(int, parts))
-print(sum_ex)
+# ex = ex.replace("-", "+-")
+# parts = ex.split("+")
+# sum_ex = sum(map(int, parts))
+# print(sum_ex)
