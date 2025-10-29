@@ -1,6 +1,6 @@
-# for i in range(5): example 1
-# for i in "String":         example 2
-#     print(i, end=" ")
+# for i in range(5): # example 1
+# # for i in "String":         example 2
+#     # print(i, end=" ")
 #     print(1, end=" ")
 
 # n = 10 

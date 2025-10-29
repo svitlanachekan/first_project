@@ -15,13 +15,13 @@
 
 # 6. Напишіть функцію для створення позначок тегів HTML навколо введених рядків. Функція отримує назву тега HTML і рядок, який необхідно помістити у відповідні теги.
 
-def teg_marks(f):
-    return f
+# def teg_html (teg, text):
+#     return f"<{teg}>{text}</{teg}"
 
-t1 = str(input("Enter a letter1: "))
-t2 = str(input("Enter a letter2: "))
+# text = input("Enter text: ")
+# teg, string = text.split()
 
-print(f"<{t1}>{t2}</{t1}>")
+# print(teg_html(teg, string))
 
 # Вхідні дані:
 
@@ -32,12 +32,6 @@ print(f"<{t1}>{t2}</{t1}>")
 
 
 # 7. Напишіть функцію, яка повертає назву пори року для введеного значення номера місяця.
-
-# def season(f):
-#     return f
-
-# t1 = str(input("Enter a letter1: "))
-# t2 = str(input("Enter a letter2: "))
 
 # 8. Напишіть функцію для створення гістограми (наприклад, у вигляді *) із заданого списку цілих чисел як у вихідних даних. Формат введення списку чисел як у вхідних даних.
 

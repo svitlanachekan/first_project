@@ -1,21 +1,14 @@
 # Ви придбали товар на певну суму s. Скільки купюр різного номіналу треба віддати продавцю, якщо починати платити з найбільших? У вас є 1, 2, 5, 10, 100, 500 гривень.
-# sum = float(input("Enter money: "))
-# money_500 = sum // 500
-# print("How many banknots of 500 hryvna: ", money_500)
 
-# sum1 = int(input(""))
-# money_100 = sum - money_500
-# print(money_100)
-
-
-# money_10 = sum // 10
-# money_5 = sum // 5
-# money_2 = sum // 2
-# money_1 = sum // 1
-
-# sum_1 = sum % money_500
-# print(sum_1)
-
-
-#
-# print("How many banknots are needed to pay for goods: ", mo"items")
+# s = int(input("Enter a sum: "))
+# print(s // 500)
+# s = s % 500
+# print(s // 100)
+# s = s % 100
+# print(s // 10)
+# s = s % 10
+# print(s // 5)
+# s = s % 5
+# print(s // 2)
+# s = s % 2
+# print(s // 1)

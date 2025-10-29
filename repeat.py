@@ -5,7 +5,7 @@
 # print(12.5)
 # print('Title "Name title"')
 
-# input_print.py -> withpit mistakes
+# input_print.py -> without mistakes
 # n1 = int(input("Enter number1: "))
 # n2 = int(input("Enter number2: "))
 # print(n1 + n2)
