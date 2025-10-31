@@ -27,3 +27,28 @@
 # Goodbye -> without mistakes
 # n3 = input("Enter a name: ")
 # print("До зустрічі,", str(n3))
+
+#---------------------
+
+# num = int(input("Enter a number: "))
+# name_of_number = ""
+
+# if num == 1:
+#     name_of_number = "One"
+
+# elif num == 2:
+#     name_of_number = "Two"
+
+# elif num == 3:
+#     name_of_number = "Three"
+    
+# else:
+#     print("Unknown")
+#     # name_of_number = "Unknown"
+
+# print(name_of_number)
+
+# --------------
+
+
+
