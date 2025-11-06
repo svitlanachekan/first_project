@@ -30,10 +30,35 @@
 
 # <strong>Python</strong>
 
+# ------------
 
 # 7. Напишіть функцію, яка повертає назву пори року для введеного значення номера місяця.
 
+# def name_season(number_month):
+#     if number_month in [12, 1, 2]:
+#           return "Winter"
+#     elif number_month in [3, 4, 5]:
+#           return "Spring"
+#     elif number_month in [6, 7, 8]:
+#           return "Summer"
+#     else:
+#           return "Autumn"
+
+# number_month = int(input("Enter a number of month (1-12): "))
+
+# print(name_season(number_month))
+
+# ---------------
+
 # 8. Напишіть функцію для створення гістограми (наприклад, у вигляді *) із заданого списку цілих чисел як у вихідних даних. Формат введення списку чисел як у вхідних даних.
+
+# def chart_stars(numbers): #коробочка із цифрами, кожна з яких співпадає цифрі
+#     for n in numbers: #беремо кожну цифру 
+#         print("*" * n) #і множимо на зірочку
+        
+# numbers = [2,7,1,4,2,3,9,3] #вихідні дані
+
+# chart_stars(numbers) #виклик функції у стовпчик у вигляді гістограми
 
 # Вхідні дані:
 
@@ -49,6 +74,7 @@
 # *********
 # ***
 
+# -------------------
 
 # Middle level 
 
