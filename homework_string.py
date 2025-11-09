@@ -66,22 +66,22 @@
 # 3	 6	9	12	15
 # 4	 8	12	16	20
 
-a = int(input("Enter a number1:\n ")) # діапазон множення від а до b
-b = int(input("Enter a number2:\n ")) # діапазон множення від а до b
-c = int(input("Enter a number3:\n ")) # діапазон множення від c до d
-d = int(input("Enter a number4:\n ")) # діапазон множення від c до d
+# a = int(input("Enter a number1:\n ")) # діапазон множення від а до b
+# b = int(input("Enter a number2:\n ")) # діапазон множення від а до b
+# c = int(input("Enter a number3:\n ")) # діапазон множення від c до d
+# d = int(input("Enter a number4:\n ")) # діапазон множення від c до d
 
-print("     ", end="\t") # пишемо цифри діапазону c до d
-for j in range(c, d + 1): # проходимо по діапазону від c до d
-    print(j, end="\t")
-print() 
+# print("     ", end="\t") # пишемо цифри діапазону c до d
+# for j in range(c, d + 1): # проходимо по діапазону від c до d
+#     print(j, end="\t")
+# print() 
 
-for i in range(a, b + 1): # проходимо по діапазону від a до b
-    print(i, end="\t")
-    for j in range(c, d + 1): # проходимо по діапазону від c до d
-        print(i * j, end="\t") # множимо і виводимо
+# for i in range(a, b + 1): # проходимо по діапазону від a до b
+#     print(i, end="\t")
+#     for j in range(c, d + 1): # проходимо по діапазону від c до d
+#         print(i * j, end="\t") # множимо і виводимо
 
-    print() # перехід на новий рядок після кожного рядка
+#     print() # перехід на новий рядок після кожного рядка
 
 # ДРУК
 # Enter a number1:
@@ -97,3 +97,41 @@ for i in range(a, b + 1): # проходимо по діапазону від a 
 # 2       4       6       8       10
 # 3       6       9       12      15
 # 4       8       12      16      20
+
+# ---------------
+
+#10 Напишіть програму для друку літери A за допомогою введеного користувачем символа.
+
+# Вхідні дані:
+
+# *
+
+# Вихідні дані:
+
+#  ***
+# *   *
+# *   *
+# *****
+# *   *
+# *   *
+# *   *
+
+# symbol = str(input("Enter a symbol: "))
+
+# print("",symbol * 3,"")
+# print(symbol," ",symbol)
+# print(symbol," ",symbol)
+# print(symbol * 5)
+# print(symbol," ",symbol)
+# print(symbol," ",symbol)
+# print(symbol," ",symbol)
+
+# ДРУК
+# Enter a symbol: *
+#  *** 
+# *   *
+# *   *
+# *****
+# *   *
+# *   *
+# *   *

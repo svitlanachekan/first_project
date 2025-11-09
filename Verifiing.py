@@ -60,3 +60,6 @@
 #     print("Cool.")
 # else:
 #     print("Nice weather we’re having..")
+
+student = {"name": "Ira", "age": 14}
+print(student.get("grade", "Немає даних"))
